@@ -1,6 +1,6 @@
 # node-pm2-windows-startup
 
-*Why this project?* I've been struggling for days looking for a *suitable*, *reliable* and *production-ready* solution to handle my NodeJS application deployment on Windows Server. I'm using [PM2](http://github.com/pm2) and I just want *my app starts automatically on Windows startup*.
+*Why this project?* I've been struggling for days looking for a *suitable*, *reliable* and *production-ready* solution to handle my NodeJS application deployment on Windows Server. I'm using [PM2](https://github.com/Unitech/pm2) and I just want *my app starts automatically on Windows startup*.
 
 After testing different solutions, I've decided to create this "How To" tutorial listing solutions I've dealt with, considering Pro and Cons for each. 
 
@@ -16,7 +16,7 @@ I Hope you run your app on linux platform; if not, maybe this guide could help y
 2. ***App2***: runs every Y msecs logging timestamp in logs\app2.log
 3. ***Web***: a simple express web app, which logs every request in logs\web.log
 
-App management is done using [PM2](http://github.com/pm2).   
+App management is done using [PM2](https://github.com/Unitech/pm2).   
 
     Sample App structure:
     apps/ 
@@ -40,7 +40,7 @@ App management is done using [PM2](http://github.com/pm2).
 
     Clone, Build the app
     cd D:\
-    git clone http://...
+    git clone https://github.com/accantelliw/node-pm2-windows-guide
     npm install
     npm install -g pm2
 
