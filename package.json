@@ -1,0 +1,14 @@
+{
+  "name": "node-pm2-windows-guide",
+  "version": "0.0.1",
+  "description": "NodeJS Demo App & Guide for PM2 on Windows.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Walter Accantelli",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "log4js": "^1.1.1"
+  }
+}

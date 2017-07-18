@@ -1,0 +1,22 @@
+{
+    "appenders": [
+        {
+            "category": "console",
+            "type": "console",
+            "layout": {
+                "type": "pattern",
+                "pattern": "%d %p %c - %m"
+            }
+        },
+        { "category": "web", "type": "dateFile", "filename": "logs/", "pattern": "yyyy-MM-dd_web.log", "alwaysIncludePattern": true, "compress": true },
+        { "category": "app1", "type": "dateFile", "filename": "logs/", "pattern": "yyyy-MM-dd_app1.log", "alwaysIncludePattern": true, "compress": true },
+        { "category": "app2", "type": "dateFile", "filename": "logs/", "pattern": "yyyy-MM-dd_app2.log", "alwaysIncludePattern": true, "compress": true }
+    ],
+    "levels": {
+        "[all]": "INFO",
+        "console": "INFO",
+        "web": "INFO",
+        "app1": "INFO",
+        "app2": "INFO"
+    }
+}
