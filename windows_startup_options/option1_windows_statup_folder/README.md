@@ -24,14 +24,14 @@ Check out the video:
 [video] TBD
 
 
-####Pro:
+#### Pro:
 + :confused: ehm... it's easy... :persevere:
 
 
-####Cons:
+#### Cons:
 - Script will run only when User login. Yes: ***If you dont't log on Windows with that User, script will NOT be executed***; that means this "solution" requires a manual task (User login) to work properly.
 
 
-####Overall Consideration
+#### Overall Consideration
 
 That's a _poor_ option, and definetely not a _solution_. **DO NOT USE on Production.**
