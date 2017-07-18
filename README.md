@@ -34,9 +34,11 @@ App management is done using [PM2](http://github.com/pm2).
 
 - I want my app to be placed on **different drive than C:** - as a best practice, app shouldn't be placed on the same drive of Windows OS. *Let's use D.*
 - app must have an **input parameter**, which is "env" in my case. I want, at least, discriminate production against developement, staging, uat, ... 
-- (*optional*) I would prefer my app to run with a **Windows Local user**, not *Administrative user*. (*spoiler*: I still didn't find a solution for that)
+- (*optional*) I would prefer my app to run with a **Windows Local user**, not *Administrative user*. (*spoiler*: I still didn't find a solution for that)   
 
-    # Clone&Build the app
+####Clone & Build
+
+    Clone, Build the app
     cd D:\
     git clone http://...
     npm install
