@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: "script1",
+      name: "app1",
       script: "apps\\app1.js",
       env: {
         NODE_ENV: "development"
@@ -13,7 +13,7 @@ module.exports = {
       exec_mode: "fork"
     },
     {
-      name: "script2",
+      name: "app2",
       script: "apps\\app2.js",
       env: {
         NODE_ENV: "development"
