@@ -4,7 +4,7 @@ set PM2_HOME=c:\etc\.pm2
 
 @REM Ensure that pm2 command is part of your PATH variable
 @REM  if you're not sure, add  it here, as follow:
-set path=C:\Users\walter\AppData\Roaming\npm;%path%
+set path=C:\Users\%USERNAME%\AppData\Roaming\npm;%path%
 
 @REM Optionally, you can add 'pm2 kill' just before 
 @REM  resurrect (adding a sleep between 2 commands):
